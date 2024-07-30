@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="help.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+  </head>
+  <body>
+    <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg bg-pink py-0">
+    <div class="container ">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" height="70" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0  ">
+          <li class="nav-item ">
+            <a class="nav-link active " aria-current="page" href="index.html" id="pgs">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="service.html">Service</a></li>
+              <li><a class="dropdown-item" href="single.html">Single Service</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Page
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="team.html">Team</a></li>
+              <li><a class="dropdown-item" href="help.html">Help</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="news.html">News</a></li>
+              <li><a class="dropdown-item" href="post.html">Single post</a></li>
+              <li><a class="dropdown-item" href="404.html">404</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact Us</a>
+          </li>
+          <a href="#" class="bg-la active ms-5 p-3" role="button" data-bs-toggle="button" aria-pressed="true">Book An Appointment</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end-->
+  <!-- help -->
+  <div id="services">
+    <div class="aa">
+      <div class="container">
+        <div class="display-3 fw-bold text-white s1">Help</div>
+        <div class="h5 text-white fw-bold">Home / <span class="s2">Help</span></div>
+      </div>
+    </div>
+  </div>
+  <!-- help end -->
+  <!-- card  -->
+  <div class="container">
+    <div class="row my-5">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-headset fa-2x text-white p-3 f2"></i>
+            <p class="lead fw-bold f3">Costumer Service</p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+            <a href="contact.html" class="f4 fw-bold">Send A Ticket</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                  <i class="fa-solid fa-book-open fa-2x text-white p-3 f2"></i>
+            <p class="lead fw-bold f3"> Service</p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+            <a href="service.html" class="f4 fw-bold">All service</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                  <i class="fa-solid fa-user-doctor fa-2x text-white p-3 f2"></i>
+            <p class="lead fw-bold f3">Doctor & Nurse</p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+            <a href="team.html" class="f4 fw-bold">All Team</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                  <i class="fa-solid fa-rotate fa-2x text-white p-3 f2"></i>
+            <p class="lead fw-bold f3">Company Policy</p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+            <a href="help.html" class="f4 fw-bold">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- card end -->
+  <!-- FAQ -->
+  <div id="faq">
+    <div class="container text-center">
+      <p class="lead g1 py-2 pt-5">FAQ</p>
+      <div class="h1">The Most Question We Had</div>
+      <div class="p g2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed pharetra erat. Integer ullamcorper quis <br> est in vehicula. Sed eu cursus dui. Aenean vel velit non neque dictum interdum a nec ex.</div>
+      <!-- accordian -->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header my-2">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" id="c8">
+              How To Change My Photo From Admin Dashboard ?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header my-2">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" id="c7">
+              How To Change My Password Easily ?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.</div>
+          </div>
+        </div>
+        <div class="accordion-item" >
+          <h2 class="accordion-header my-2">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"id="c7" >
+              How To Change My Subscription Plan Using PayPal
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.</div>
+          </div>
+        </div>
+      </div>
+      <!-- accordian end -->
+    </div>
+  </div>
+  <!-- FAQ end -->
+   <!-- News & Article -->
+   <div class="container">
+    <div class="row mt-5 pt-5">
+      <div class="col-md-4">
+        <div class="h5" id="pgs">News & Article
+        </div>
+        <div class="h2">Our Latest News
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p f1">Fusce non egestas felis, in rhoncus est. Morbi non congue orci. Sed venenatis varius convallis.
+          Aenean vitae hendrerit est, eu molestie orci. Vivamus consectetur molestie lacus, at mattis augue porta et.
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="log p-4">Veiw more</button>
+      </div>
+    </div>
+  </div>
+  <!-- News & Article end -->
+  <!-- card -->
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/ladies 1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Cherishing Life, Bringing Independence A Little Closer To Home</h6>
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button type="button" class="lop p-2 px-4">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/ladeis 2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">CCherishing Life, Bringing Independence A Little Closer To Home</h6>
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button type="button" class="lop p-2 px-4">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/ladies5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Cherishing Life, Bringing Independence A Little Closer To Home</h6>
+            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button type="button" class="lop p-2 px-4">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card end -->
+  <!-- Give Your Loved Ones Quality Care You Can Trust -->
+ <div id="footer" class="mt-5">
+  <div class="lsa">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-md-6 ">
+          <div class="h1 text-white fw-bold">Give Your Loved Ones Quality Care You Can Trust</div>
+        </div>
+        <div class="col-md-6">
+          <button type="button" class=" ms-5 mt-5 p-3 px-4 vs">Contact Us Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Give Your Loved Ones Quality Care You Can Trust end -->
+<div id="footer-2">
+  <div class="container ">
+    <div class="row pt-5 ">
+      <div class="col-md-3">
+        <img src="img/logo-2.png" width="150" height="48.5" alt="">
+        <div class="p text-white">
+          Suspendisse congue tincidunt nisi, in eleifend metus placerat eu. Nunc eget tristique nisi. Nunc a eros
+          vitae magna bibendum tempus. Mauris ipsum enim, sollicitudin sit amet consequat at.
+        </div>
+      </div>
+      <div class="col-md-3 text-white">
+        <div class="h5 text-white">Quick Link</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>About Us</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>Services</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>Delivery</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>FAQ</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>Contact</div>
+      </div>
+      <div class="col-md-3 text-white">
+        <div class="h5 text-white">Information</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>About Us</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>Services</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>Delivery</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>FAQ</div>
+        <div class="p"><i class="fa-solid fa-angle-right nm m-1"></i>Contact</div>
+      </div>
+      <div class="col-md-3 text-white">
+        <div class="h5">Get In Touch</div>
+        <div class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="p"><i class="fa-solid fa-location-dot m-1"></i>99 Roving St., Pku
+          <i class="fa-solid fa-phone m-1"></i> +123-456-789</div>
+          <div class="p"><i class="fa-solid fa-envelope m-1"></i> hello@awesomesite.com</div>
+          <div class="h4">Social Media :</div>
+          <span><i class="fa-brands fa-facebook mna"></i></span>
+          <span><i class="fa-brands fa-twitter mna mx-2"></i></span>
+          <span><i class="fa-brands fa-youtube mna"></i></span>
+      </div>
+      
+    </div>
+    <hr class="shy mt-5">
+    <div class="p text-center text-white">© Copyright 2023. All Rights Reserved. Rometheme</div>
+  </div>
+</div>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Abhaya Libre', serif;
+}
+.bg-pink {
+    background-color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+}
+
+.bg-la {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 18.5px;
+}
+
+.bg-la:hover {
+    background-color: #a33959;
+}
+/* help  */
+#services{
+    background-image: url(img/ladies6.jpg);
+    min-height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aa{
+    background-color: rgba(0, 0, 0, 0.434);
+    min-height: 60vh;
+    padding-top: 120px;
+}
+.s1{
+    font-size: 100px;
+}
+.s2{
+    color: #a33959;
+}
+.s3{
+    color: #c93d80;
+}
+/* help end */
+/* Our Latest Post */
+.j1{
+    color: gray;
+}
+.j2{
+    background-color: #f9f7fa;
+}
+/* Our Latest Post end */
+
+/* Subscibe For Our Newsletter  */
+.b1{
+    background-image: url(img/ladeis\ 4.jpg);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    
+} 
+.img{
+   background-color: #cf2155a8;
+   min-height: 50vh;
+   border-radius: 20px;
+}
+.b2{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+}
+.b2:hover{
+    background-color: #a33959;
+    
+}
+/* Subscibe For Our Newsletter  end */

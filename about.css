@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Abhaya Libre', serif;
+}
+.bg-pink {
+    background-color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+}
+
+.bg-la {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 18.5px;
+}
+
+.bg-la:hover {
+    background-color: #a33959;
+}
+#about{
+    background-image: url(img/ladies6.jpg);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+.aa{
+    background-color: #00000071;
+    min-height: 50vh;
+}
+.s1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.s2{
+    color: #c93d80  ;
+}
+#s3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#trs {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 10px;
+}
+#pgs {
+    color: #c93d80;
+    
+}
+#size{
+    color: #c93d80;
+    border-radius: 40px;
+}
+.ww {
+    background-color: #a33959;
+    color: #fff;
+    border: none;
+}
+.ps{
+    background-color: #c93d80;
+    border-radius: 20px;
+}
+.img{
+    position: relative;
+}
+.s4{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: #fff;
+    background-color: #c93d80;
+    border-radius: 50px;
+    border: 3px solid #c93d80;
+}
+.ig{
+    border-radius: 20px;
+}
+.s5{
+    position: absolute;
+    top: 83%;
+    left: 18%;
+    color: #fff;
+}
+.s9{
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 5px;
+}
+.s6{
+    border-bottom: 5px solid #c93d80;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #00000069;
+}
+.cl {
+    color: #fff;
+    background-color: #c93d80;
+    border-radius: 50px;
+
+}
+ 
+.aa {
+    background-color: rgba(0, 0, 0, 0.491);
+    min-height: 400px;
+    min-width: 100%;
+}
+.back-image {
+    background-image: url(img/ladies5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+}
+.lhs {
+    background-color: #c93d80;
+
+}
+.ors {
+    background-color: #82364b;
+    border: 2px solid #82364b;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.ors:hover {
+    background-color: #c93d80;
+    color: #000;
+}
+.size{
+    border-radius: 40px;
+}
+#footer{
+    background-image: url(img/seniorsy.jpg);
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.lsa{
+    background-color: #c93d819f;
+    min-height: 30vh;
+}
+.vs{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.vs:hover{
+    background-color: #b7496a;
+    border: 2px solid #b7496a;
+}
+#footer-2{
+    background-color: #872c58;
+    min-height: 70vh;
+    min-width: 100%;
+}
+.mna{
+    border: 8px solid #aa6076;
+    border-radius: 18px;
+}
+.nm{
+    color: #aa6076;
+    font-size: 20px;
+}
+.shy{
+    color: #aa6076;
+}

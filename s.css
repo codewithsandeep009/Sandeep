@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Abhaya Libre', serif ;
+}
+
+#main {
+    background-image: url(https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/caregiver-assist-senior-woman-at-home-2021-08-30-08-38-14-utc.jpg);
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center center;
+}
+
+.bg-pink {
+    background-color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+}
+
+.bg-la {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 18.5px;
+}
+
+.bg-la:hover {
+    background-color: #a33959;
+}
+
+.font {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 900;
+}
+
+.color {
+    background-color: #c93d80;
+    border: 1px solid #c93d80;
+    color: #fff;
+}
+
+.color:hover {
+    background-color: #a33959;
+}
+
+.bg-color {
+    background-color: #82364b;
+    display: flex;
+    align-items: center;
+
+}
+
+.sg-color {
+    background-color: #b7496a;
+    display: flex;
+    align-items: center;
+}
+
+.lg-color {
+    background-color: #c93d80;
+    display: flex;
+    align-items: center;
+}
+
+.tt {
+    color: #fff;
+    background-color: #aa6076;
+    border-radius: 50px;
+}
+
+.h4 {
+    color: #c93d80;
+    font-family: 'Abhaya Libre', serif;
+
+}
+
+
+
+.ps {
+    background-color: #c93d80;
+    border-radius: 20px;
+}
+
+#size {
+    border-radius: 40px;
+    color: #c93d80;
+}
+
+
+.ww {
+    background-color: #a33959;
+    color: #fff;
+    border: none;
+}
+
+.h1 {
+    color: #aa6076;
+}
+
+.back-image {
+    background-image: url(img/ladies5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+}
+
+.ps-2 {
+    background-color: #c93d80;
+    font-size: 20px;
+    border-radius: 60px;
+    border: 1px solid #c93d80;
+}
+
+.cl {
+    color: #fff;
+    background-color: #c93d80;
+    border-radius: 50px;
+
+}
+
+.aa {
+    background-color: rgba(0, 0, 0, 0.491);
+    min-height: 400px;
+    min-width: 100%;
+}
+
+.lhs {
+    background-color: #c93d80;
+
+}
+
+
+
+
+.ors {
+    background-color: #82364b;
+    border: 2px solid #82364b;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.ors:hover {
+    background-color: #c93d80;
+    color: #000;
+}
+
+#pgs {
+    color: #c93d80;
+}
+#button{
+    position: relative;
+}
+.ig {
+    border-radius: 20px;
+}
+.s8{
+    position: absolute;
+    top: 80%;
+    left: 6%;
+    color: #fff;
+    border-radius: 100px;
+    background-color: #c93d80;
+}
+
+#trs {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.s9{
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#ph {
+    background-color: #c93d80;
+    border: 1px solid #c93d80;
+}
+.s6{
+    border-bottom: 5px solid #c93d80;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #00000069;
+}
+
+#gsap {
+    color: #fff;
+    background-color: #c93d80;
+    border-radius: 10px;
+}
+
+.bsh {
+    background-color: #c93d80;
+    border-radius: 20px;
+
+}
+
+.la {
+    background-color: aliceblue;
+}
+
+.llb {
+    background-color: #82364b;
+    border: 2px solid #82364b;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.llb:hover {
+    background-color: #c93d80;
+    color: #000;
+}
+
+.log {
+    background-color: #82364b;
+    color: #fff;
+    border: 2px solid #82364b;
+    border-radius: 10px;
+}
+
+.log:hover {
+    background-color: #a33959;
+}
+
+.lop {
+    background-color: #c93d80;
+    color: #fff;
+    border: 2px solid #c93d80;
+    border-radius: 10px;
+}
+
+#footer{
+    background-image: url(img/seniorsy.jpg);
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.lsa{
+    background-color: #c93d819f;
+    min-height: 30vh;
+}
+.vs{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.vs:hover{
+    background-color: #b7496a;
+    border: 2px solid #b7496a;
+
+}
+#footer-2{
+    background-color: #872c58;
+    min-height: 70vh;
+    min-width: 100%;
+}
+.mna{
+    border: 8px solid #aa6076;
+    border-radius: 18px;
+}
+.nm{
+    color: #aa6076;
+    font-size: 20px;
+}
+.shy{
+    color: #aa6076;
+}

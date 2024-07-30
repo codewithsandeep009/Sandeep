@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Abhaya Libre', serif;
+}
+.bg-pink {
+    background-color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+}
+
+.bg-la {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 18.5px;
+}
+
+.bg-la:hover {
+    background-color: #a33959;
+}
+/* services */
+
+#services{
+    background-image: url(img/ladies6.jpg);
+    min-height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aa{
+    background-color: rgba(0, 0, 0, 0.434);
+    min-height: 60vh;
+    padding-top: 120px;
+}
+.s1{
+    font-size: 100px;
+}
+.s2{
+    color: #a33959;
+}
+.s3{
+    color: #c93d80;
+}
+/* services end */
+/* card  */
+.s4{
+    border-bottom: 5px solid #c93d80;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 5px 5px 5px #000000bc;
+}
+.s5{
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 20px;
+}
+#pgs{
+    color: #a33959;
+}
+/* card end */
+/* How It Work  */
+.s7{
+    background-color: #f8f9fa;
+}
+.s6{
+    color: #c93d80;
+}
+#gsap {
+    color: #fff;
+    background-color: #c93d80;
+    border-radius: 10px;
+}
+.fill{
+    background-color: #c93d80;
+    border-radius: 20px;
+}
+.s8{
+    color: #beb2b2;
+}
+.s9{
+    color: #fff;
+    background-color: #872c58;
+}
+/* How It Work end */
+/* Why Choose Us  */
+.a1{
+    border-radius: 40px;
+}
+.a2{
+    color: #c93d80;
+    
+}
+.a6{
+    color: #beb2b2;
+}
+/* Why Choose Us end  */
+/* part  */
+.a3{
+    background-color: #f7f2f2;
+    box-shadow: 8px 8px 8px 8px #beb2b2d4;
+    border-radius: 10px;
+}
+.a4{
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 10px;
+}
+.a5{
+    color: #beb2b2;
+}
+
+/* part  */
+/* footer  */
+
+#footer{
+    background-image: url(img/seniorsy.jpg);
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.lsa{
+    background-color: #c93d819f;
+    min-height: 30vh;
+}
+.vs{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.vs:hover{
+    background-color: #b7496a;
+    border: 2px solid #b7496a;
+}
+#footer-2{
+    background-color: #872c58;
+    min-height: 70vh;
+    min-width: 100%;
+}
+.mna{
+    border: 8px solid #aa6076;
+    border-radius: 18px;
+}
+.nm{
+    color: #aa6076;
+    font-size: 20px;
+}
+.shy{
+    color: #aa6076;
+}
+/* footer  end */

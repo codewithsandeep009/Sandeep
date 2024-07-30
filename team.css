@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Abhaya Libre', serif;
+}
+.bg-pink {
+    background-color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+}
+
+.bg-la {
+    background-color: #c93d80;
+    color: #fff;
+    border-radius: 13px;
+    text-decoration: none;
+    font-size: 18.5px;
+}
+
+.bg-la:hover {
+    background-color: #a33959;
+}
+/* team  */
+#services{
+    background-image: url(img/ladies6.jpg);
+    min-height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aa{
+    background-color: rgba(0, 0, 0, 0.434);
+    min-height: 60vh;
+    padding-top: 120px;
+}
+.s1{
+    font-size: 100px;
+}
+.s2{
+    color: #a33959;
+}
+.s3{
+    color: #c93d80;
+}
+/* team end */
+/* Meet Our Beloved Nurse & Doctor  */
+.e1{
+    color: #c93d80;
+}
+.e2{
+    border-radius: 15px;
+}
+.cc{
+    position: relative;
+}
+.box{
+    background-color: #c93d81d7;
+    min-height: 20vh;
+    min-width: 90%;    
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    border-radius: 20px;
+}
+.e4{
+    background-color: #a33959;
+    border: 5px solid #a33959;
+    border-radius: 20px;
+}
+/* Meet Our Beloved Nurse & Doctor end */
+/* We Care With Compassion */
+.cl {
+    color: #fff;
+    background-color: #c93d80;
+    border-radius: 50px;
+
+}
+ 
+.aa {
+    background-color: rgba(0, 0, 0, 0.491);
+    min-height: 400px;
+    min-width: 100%;
+}
+.back-image {
+    background-image: url(img/ladies5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+}
+/* We Care With Compassion end */
+/* what they say */
+.lhs {
+    background-color: #c93d80;
+
+}
+.ors {
+    background-color: #82364b;
+    border: 2px solid #82364b;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.ors:hover {
+    background-color: #c93d80;
+    color: #000;
+}
+/* what they say end */
+/* News & Article  */
+#pgs {
+    color: #c93d80;
+}
+.f1{
+    color: gray;
+}
+.log {
+    background-color: #c93d80;
+    color: #fff;
+    border: 2px solid #c93d80;
+    border-radius: 10px;
+}
+
+.log:hover {
+    background-color: #a33959;
+}
+/* News & Article  end */
+/* card */
+.lop {
+    background-color: #c93d80;
+    color: #fff;
+    border: 2px solid #c93d80;
+    border-radius: 10px;
+}
+/* card end */
+/* footer  */
+#footer{
+    background-image: url(img/seniorsy.jpg);
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.lsa{
+    background-color: #c93d819f;
+    min-height: 30vh;
+}
+.vs{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.vs:hover{
+    background-color: #b7496a;
+    border: 2px solid #b7496a;
+}
+#footer-2{
+    background-color: #872c58;
+    min-height: 70vh;
+    min-width: 100%;
+}
+.mna{
+    border: 8px solid #aa6076;
+    border-radius: 18px;
+}
+.nm{
+    color: #aa6076;
+    font-size: 20px;
+}
+.shy{
+    color: #aa6076;
+}
+/* footer  end */
+
+
+
